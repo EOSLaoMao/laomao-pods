@@ -21,10 +21,9 @@ This command will validate the podspec file, and push the spec file to the repo 
 
 Add the following line the Podfile:
 
-`
+```
 source 'git@github.com:EOSLaoMao/laomao-pods.git'
-
 source 'https://github.com/CocoaPods/Specs.git'
-`
+```
 
 Remember, you should put the private source at the head of the public cocoapods repo!
